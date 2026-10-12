@@ -23,7 +23,7 @@ DefaultPcbPcad=0
 ReorderDocumentsOnCompile=1
 NameNetsHierarchically=1
 PowerPortNamesTakePriority=1
-AutoSheetNumbering=0
+AutoSheetNumbering=1
 AutoCrossReferences=0
 NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=DIOT_Baseband
+CurrentVariant=EEM_Upconverter
 
 [Preferences]
 PrefsVaultGUID=
@@ -136,6 +136,23 @@ GenerateClassCluster=0
 DocumentUniqueId=EXWNFARM
 
 [Document6]
+DocumentPath=SCH\CLK_GEN.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=29
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=LTHUSRGJ
+
+[Document7]
 DocumentPath=SCH\CPCIS_Connectors_P1_P6.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMUUFYQV
 
-[Document7]
+[Document8]
 DocumentPath=SCH\Temperature_monitoring.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -168,23 +185,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PPRYFJRL
-
-[Document8]
-DocumentPath=SCH\CLK_GEN.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=29
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=LTHUSRGJ
 
 [Document9]
 DocumentPath=SCH\Power-up_delay.SchDoc
@@ -289,6 +289,23 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document15]
+DocumentPath=SCH\Mechanical.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=34
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=JTXOSLGX
+
+[Document16]
 DocumentPath=SCH\FPGA.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -305,7 +322,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TOOYSKUW
 
-[Document16]
+[Document17]
 DocumentPath=SCH\FPGA_Supply.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -322,7 +339,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=MZHMMFCU
 
-[Document17]
+[Document18]
 DocumentPath=SCH\FPGA_Config.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -339,7 +356,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTDDHIKM
 
-[Document18]
+[Document19]
 DocumentPath=SCH\FPGA_Flash.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -356,7 +373,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=GRDDCLBL
 
-[Document19]
+[Document20]
 DocumentPath=SCH\FPGA_Bank13-14.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -373,7 +390,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=DCZKMQTO
 
-[Document20]
+[Document21]
 DocumentPath=SCH\FPGA_Bank15-16.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -390,7 +407,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=TTYBXLII
 
-[Document21]
+[Document22]
 DocumentPath=SCH\FPGA_Bank34.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -407,7 +424,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WKTBBDGD
 
-[Document22]
+[Document23]
 DocumentPath=SCH\FPGA_SDRAM.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -424,7 +441,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SLADMIQQ
 
-[Document23]
+[Document24]
 DocumentPath=SCH\FPGA_GTP.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -441,7 +458,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AYFYMRNG
 
-[Document24]
+[Document25]
 DocumentPath=SCH\CPCIS_Connectors_P1_P6.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -458,7 +475,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document25]
+[Document26]
 DocumentPath=Phaser.PCBDwf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -473,9 +490,9 @@ ClassGenCCAutoRoomEnabled=0
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=
+DocumentUniqueId=HKQUQIGI
 
-[Document26]
+[Document27]
 DocumentPath=Phaser.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -492,7 +509,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document27]
+[Document28]
 DocumentPath=SCH\Attenuator.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -509,7 +526,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KXWHQUOH
 
-[Document28]
+[Document29]
 DocumentPath=SCH\Upconversion.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -526,7 +543,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BSEKZZBW
 
-[Document29]
+[Document30]
 DocumentPath=SCH\Upconversion.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -543,7 +560,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document30]
+[Document31]
 DocumentPath=SCH\Upconversion_LO.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -560,7 +577,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=AXZCAEDK
 
-[Document31]
+[Document32]
 DocumentPath=SCH\DAC.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -577,7 +594,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RHBLQUIG
 
-[Document32]
+[Document33]
 DocumentPath=SCH\DAC_SUPPLY.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -594,7 +611,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VNVMPTGX
 
-[Document33]
+[Document34]
 DocumentPath=SCH\DAC.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -611,7 +628,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document34]
+[Document35]
 DocumentPath=SCH\Input_channel.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -628,7 +645,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=SXPCNEYN
 
-[Document35]
+[Document36]
 DocumentPath=SCH\ADC_2CH.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -644,23 +661,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=ALGRZGGC
-
-[Document36]
-DocumentPath=SCH\Mechanical.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=34
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=JTXOSLGX
 
 [Document37]
 DocumentPath=SCH\FPGA_Bank15-16.Harness
@@ -867,7 +867,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document49]
-DocumentPath=SCH\CLK_GEN.Harness
+DocumentPath=SCH\ADC_2CH.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -884,7 +884,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document50]
-DocumentPath=SCH\ADC_2CH.Harness
+DocumentPath=SCH\CLK_GEN.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -3438,37 +3438,29 @@ ParamVariationCount=126
 
 [Parameter1]
 Name=P_copyright_owner
-Value=ISE WUT 2025-2026
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Parameter2]
 Name=P_github_link
 Value=https://github.com/sinara-hw/Phaser
 
 [Parameter3]
-Name=P_last_mod_by_1
-Value=Krzysztof Belewicz (ISE WUT)
+Name=P_release_designers
+Value=Krzysztof Belewicz (ISE WUT), Grzegorz Kasprowicz (ISE WUT)
 
 [Parameter4]
-Name=P_last_mod_by_2
-Value=M.Mróz
+Name=P_release_owner
+Value=Krzysztof Belewicz (ISE WUT)
 
 [Parameter5]
-Name=P_last_rev_by_1
-Value=
+Name=P_release_reviewers
+Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
 
 [Parameter6]
-Name=P_last_rev_by_2
-Value=
+Name=P_template_version
+Value=1.4
 
 [Parameter7]
-Name=P_originally_released
-Value=Grzegorz Kasprowicz (ISE WUT) on 17.09.2019
-
-[Parameter8]
-Name=P_template_version
-Value=DIOT-Template v1.3
-
-[Parameter9]
 Name=P_version
 Value=2.0
 
@@ -3859,12 +3851,17 @@ OutputDocumentPath8=
 OutputVariantName8=[No Variations]
 OutputDefault8=0
 PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
-OutputType9=Project History
-OutputName9=Project History
+OutputType9=BOM_ReportManufacturing
+OutputName9=Manufacturing Data
 OutputDocumentPath9=
 OutputVariantName9=[No Variations]
 OutputDefault9=0
-PageOptions9=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType10=Project History
+OutputName10=Project History
+OutputDocumentPath10=
+OutputVariantName10=[No Variations]
+OutputDefault10=0
+PageOptions10=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -4150,6 +4147,27 @@ Type147=1
 Type148=1
 Type149=1
 Type150=1
+Type151=1
+Type152=1
+Type153=1
+Type154=1
+Type155=1
+Type156=1
+Type157=1
+Type158=1
+Type159=1
+Type160=1
+Type161=1
+Type162=1
+Type163=1
+Type164=1
+Type165=1
+Type166=1
+Type167=1
+Type168=1
+Type169=1
+Type170=1
+Type171=1
 
 [Difference Levels]
 Type1=1
@@ -4195,7 +4213,7 @@ Type40=1
 Type41=1
 Type42=1
 Type43=1
-Type44=0
+Type44=1
 Type45=1
 Type46=1
 Type47=1
@@ -4233,6 +4251,20 @@ Type78=1
 Type79=1
 Type80=1
 Type81=1
+Type82=1
+Type83=1
+Type84=1
+Type85=1
+Type86=1
+Type87=1
+Type88=1
+Type89=1
+Type90=1
+Type91=1
+Type92=1
+Type93=1
+Type94=1
+Type95=1
 
 [Electrical Rules Check]
 Type1=1
@@ -4389,6 +4421,17 @@ Type151=2
 Type152=1
 Type153=1
 Type154=0
+Type155=0
+Type156=0
+Type157=0
+Type158=0
+Type159=0
+Type160=0
+Type161=0
+Type162=1
+Type163=1
+Type164=1
+Type165=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNNW
