@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=EEM_Upconverter
+CurrentVariant=DIOT_Baseband
 
 [Preferences]
 PrefsVaultGUID=
@@ -68,23 +68,6 @@ GenerateClassCluster=0
 DocumentUniqueId=EBXBSCMW
 
 [Document2]
-DocumentPath=SCH\FP_Connectors.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=48
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EZLIUZWI
-
-[Document3]
 DocumentPath=SCH\EEM_Connectors.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -101,7 +84,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=VGBTAUBO
 
-[Document4]
+[Document3]
 DocumentPath=PCB\Phaser.PcbDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -118,7 +101,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=HGQCCAOV
 
-[Document5]
+[Document4]
 DocumentPath=SCH\Phaser.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -135,7 +118,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EXWNFARM
 
-[Document6]
+[Document5]
 DocumentPath=SCH\CLK_GEN.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -152,7 +135,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=LTHUSRGJ
 
-[Document7]
+[Document6]
 DocumentPath=SCH\CPCIS_Connectors_P1_P6.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -169,7 +152,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=RMUUFYQV
 
-[Document8]
+[Document7]
 DocumentPath=SCH\Temperature_monitoring.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,7 +169,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PPRYFJRL
 
-[Document9]
+[Document8]
 DocumentPath=SCH\Power-up_delay.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -203,7 +186,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=FQPYMIKH
 
-[Document10]
+[Document9]
 DocumentPath=SCH\DIOT_signal_routing.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -220,7 +203,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WRBYEAMI
 
-[Document11]
+[Document10]
 DocumentPath=SCH\I2C_switch.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -237,7 +220,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=XDLJFZMU
 
-[Document12]
+[Document11]
 DocumentPath=SCH\DIOT_signal_routing.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -254,7 +237,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document13]
+[Document12]
 DocumentPath=SCH\Temperature_monitoring.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -271,7 +254,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document14]
+[Document13]
 DocumentPath=SCH\I2C_switch.Harness
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -288,7 +271,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document15]
+[Document14]
 DocumentPath=SCH\Mechanical.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -304,6 +287,23 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=JTXOSLGX
+
+[Document15]
+DocumentPath=SCH\FP_Connectors.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=48
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=EZLIUZWI
 
 [Document16]
 DocumentPath=SCH\FPGA.SchDoc
@@ -3436,33 +3436,37 @@ ParamVariation126=ParameterName=Comment|VariantValue==Value
 ParamDesignator126=T_R9
 ParamVariationCount=126
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs for Phaser\Design Rule Check - Phaser.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2025 · Technosystem 2025-2026
+Name=P_version
+Value=2.0.0
 
 [Parameter2]
-Name=P_github_link
-Value=https://github.com/sinara-hw/Phaser
+Name=P_template_version
+Value=1.4
 
 [Parameter3]
-Name=P_release_designers
-Value=Krzysztof Belewicz (ISE WUT), Grzegorz Kasprowicz (ISE WUT)
+Name=P_release_reviewers
+Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
 
 [Parameter4]
 Name=P_release_owner
 Value=Krzysztof Belewicz (ISE WUT)
 
 [Parameter5]
-Name=P_release_reviewers
-Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
+Name=P_release_designers
+Value=Krzysztof Belewicz (ISE WUT), Grzegorz Kasprowicz (ISE WUT)
 
 [Parameter6]
-Name=P_template_version
-Value=1.4
+Name=P_github_link
+Value=https://github.com/sinara-hw/Phaser
 
 [Parameter7]
-Name=P_version
-Value=2.0
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Configuration1]
 Name=Sources
