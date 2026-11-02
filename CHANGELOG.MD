@@ -52,6 +52,8 @@ Changes in respect to the previous revision:
 	- added I2C I/O expander to drive SERVMOD in EEM variant
 	- FPGA_Flash.SchDoc and FPGA_Config.SchDoc collated to share level translator ICs
 - L7 connected to P3V3 instead of P2V5 (DAC IOVDD2 pin voltage changed to match FPGA bank voltage, net IOVDD25 renamed to IOVDD2_33)
+- added IC13 - P1V5 rail supervisor
+- Added more reliable P1V5 polygons connection between TOP and L2
 
 BOM optimizations
 - fiducials/ testpoints set to (No Bom)
