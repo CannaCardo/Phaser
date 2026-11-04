@@ -4,6 +4,22 @@ All notable changes to Phaser-DIOT are documented in this file.
 
 ## v2.0
 
+**Release owner:** Mikołaj Sowiński (TS)
+
+**Designers:** 
+- Krzysztof Belewicz (WUT)
+
+**Reviewers:** 
+- Maciej Przybysz (TS)
+- Marta Fąfara (TS)
+
+**Contributors:** 
+- Marcin Kiepiela (TS)
+
+**Funded by:** 
+- WUT ISE
+- Technosystem
+
 All schematic files updated according to DIOT template v1.4.  
 Changes in respect to the previous revision:
 
@@ -74,24 +90,6 @@ BOM optimizations
 - C277A-D changed from 0603 to 0805 to match the rest of the project
 - L10 parameters corrected to match the rest of the project (no part change)
 - LD1, LD4, LD9, LD10, LD11, LD12, LD13, LD14, LD15, LD16, LD17, LD18, LD19, LD20, LD21, LD22, LD23A, LD23B to match DIOT Template PN
-
-
-**Release owner:** Mikołaj Sowiński (TS)
-
-**Designers:** 
-- Krzysztof Belewicz (WUT)
-
-**Reviewers:** 
-- Maciej Przybysz (TS)
-- Marta Fąfara (TS)
-
-**Contributors:** 
-- Marcin Kiepiela (TS)
-
-**Funded by:** 
-- WUT ISE
-- Technosystem
-
 
 ---
 
